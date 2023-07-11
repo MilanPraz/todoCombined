@@ -1,0 +1,2 @@
+user secA
+pass passSecA

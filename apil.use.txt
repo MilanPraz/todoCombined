@@ -1,0 +1,21 @@
+create todos
+http://localhost:8000/api/todos
+{
+    "todos" : string,
+    "priority" : boolean,
+    "completed" : boolean
+}
+
+Update todos
+http://localhost:8000/api/todos/id
+{
+    "todos" : string,
+    "priority" : boolean,
+    "completed" : boolean
+}
+
+Read all todos 
+http://localhost:8000/api/todos
+
+Delete all  { completed : true}
+http://localhost:8000/api/todos/completed
